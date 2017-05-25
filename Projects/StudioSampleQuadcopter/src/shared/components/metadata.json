@@ -1,0 +1,22 @@
+{
+  "experiences": [{
+    "vumark": "11519:1",
+    "xperienceType": "vumark",
+    "index-keys": ["urn:vuforia:vumark:11519:1"],
+    "title": {
+      "en": "UAV"
+    },
+    "description": {
+      "en": "UAV",
+      "en-US": "UAV"
+    },
+    "requires": ["AR-tracking"],
+    "tags": [],
+    "icon": "",
+    "viewName": "Q",
+    "url-template": "index.html?expIndex=0#/Q?thing={{thingworx:thing}}&vumark={{vuforia:vumark}}",
+    "thumbnail": "public/Uploaded/gallery_thumbnail_drone.png"
+  }],
+  "requires": ["w320dp"],
+  "accessType": "public"
+}

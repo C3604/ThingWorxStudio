@@ -1,0 +1,133 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [{
+    "attributes": {
+      "id": "vumark",
+      "isbound": "false",
+      "isdeletable": "false",
+      "name": "ThingMark",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "template",
+      "isbound": "false",
+      "isdeletable": "false",
+      "name": "Thing Template",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "thing",
+      "isbound": "false",
+      "isdeletable": "false",
+      "name": "Thing",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "ry",
+      "name": "ry",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "tiltX",
+      "name": "tiltX",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "tiltZ",
+      "name": "tiltZ",
+      "value": ""
+    },
+    "name": "twx-app-param",
+    "children": [{
+      "attributes": {
+        "databind-id": "db-1495691569814",
+        "source-type": "data",
+        "source-name": "tiltZ",
+        "source-item-type": "value",
+        "source-item-name": "tiltZ",
+        "binding-type": "custom_field",
+        "from-expression": "app.params['tiltZ']",
+        "to-property": "app.params['tiltZ']"
+      },
+      "name": "twx-databind"
+    }]
+  }, {
+    "attributes": {
+      "id": "xpos",
+      "name": "xpos",
+      "value": ""
+    },
+    "name": "twx-app-param",
+    "children": [{
+      "attributes": {
+        "databind-id": "db-1495691571316",
+        "source-type": "data",
+        "source-name": "tiltZ",
+        "source-item-type": "value",
+        "source-item-name": "tiltZ",
+        "binding-type": "custom_field",
+        "from-expression": "app.params['tiltZ']",
+        "to-property": "app.params['xpos']"
+      },
+      "name": "twx-databind"
+    }, {
+      "attributes": {
+        "databind-id": "db-1495691576425",
+        "source-type": "data",
+        "source-name": "tiltZ",
+        "source-item-type": "value",
+        "source-item-name": "tiltZ",
+        "binding-type": "custom_field",
+        "from-expression": "app.params['tiltZ']",
+        "to-property": "app.params['xpos']"
+      },
+      "name": "twx-databind"
+    }]
+  }, {
+    "attributes": {
+      "id": "ypos",
+      "name": "ypos",
+      "value": ""
+    },
+    "name": "twx-app-param",
+    "children": [{
+      "attributes": {
+        "databind-id": "db-1495691583105",
+        "source-type": "data",
+        "source-name": "tiltZ",
+        "source-item-type": "value",
+        "source-item-name": "tiltZ",
+        "binding-type": "custom_field",
+        "from-expression": "app.params['tiltZ']",
+        "to-property": "app.params['ypos']"
+      },
+      "name": "twx-databind"
+    }]
+  }, {
+    "attributes": {
+      "id": "zpos",
+      "name": "zpos",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "markerRotation",
+      "name": "markerRotation"
+    },
+    "name": "twx-app-param"
+  }],
+  "name": "twx-app-mdl"
+}

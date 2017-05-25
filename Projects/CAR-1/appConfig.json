@@ -1,0 +1,53 @@
+{
+  "name": "CAR-1",
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "CAR-1",
+  "thingworxServer": "http://creo-ar.ptc.com",
+  "version": "1.12.463",
+  "device": {
+    "name": "phone",
+    "width": "402px",
+    "height": "713px"
+  },
+  "state": {
+    "orientation": "portrait"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "mainNavigationMenuStyle": "leftSideMenu",
+  "previewUrl": "http://localhost:3000/preview.html?project=${project}&format=${format}&orientation=${orientation}&phone=true",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/phone/fonts",
+  "theme": "twx-dark"
+}

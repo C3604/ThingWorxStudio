@@ -1,0 +1,22 @@
+{
+  "requires": ["w320dp"],
+  "experiences": [{
+    "xperienceType": "vumark",
+    "index-keys": ["urn:vuforia:vumark:11519:2"],
+    "title": {
+      "en": "My 3D Model"
+    },
+    "description": {
+      "en": "",
+      "en-US": ""
+    },
+    "requires": ["AR-tracking"],
+    "tags": [],
+    "icon": "",
+    "viewName": "Home",
+    "url-template": "index.html?expIndex=0#/Home?thing={{thingworx:thing}}&vumark={{vuforia:vumark}}",
+    "thumbnail": "public/Uploaded/3D-thumbnail.png",
+    "vumark": "11519:2"
+  }],
+  "accessType": "public"
+}

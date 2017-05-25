@@ -1,0 +1,133 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [{
+    "attributes": {
+      "id": "vumark",
+      "isbound": "false",
+      "isdeletable": "false",
+      "name": "ThingMark",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "template",
+      "isbound": "false",
+      "isdeletable": "false",
+      "name": "Thing Template",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "thing",
+      "isbound": "false",
+      "isdeletable": "false",
+      "name": "Thing",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "tiltX",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "tiltX",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "tiltZ",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "tiltZ",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "ry",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "ry",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "markerRotation",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "markerRotation",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "xpos",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "xpos",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "ypos",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "ypos",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "zpos",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "zpos",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "rx",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "rx",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "Bxpos",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "Bxpos",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "Bzpos",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "Bzpos",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "Bypos",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "Bypos",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }],
+  "name": "twx-app-mdl"
+}

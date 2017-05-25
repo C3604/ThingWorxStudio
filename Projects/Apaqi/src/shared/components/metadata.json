@@ -1,0 +1,24 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "requires": ["w320dp"],
+  "experiences": [{
+    "vumark": "11519:1",
+    "xperienceType": "vumark",
+    "index-keys": ["urn:vuforia:vumark:11519:1"],
+    "title": {
+      "en": "copter"
+    },
+    "description": {
+      "en": "copter",
+      "en-US": "copter"
+    },
+    "requires": ["AR-tracking"],
+    "tags": [],
+    "icon": "",
+    "viewName": "Home",
+    "url-template": "index.html?expIndex=0#/Home?thing={{thingworx:thing}}&vumark={{vuforia:vumark}}",
+    "thumbnail": ""
+  }],
+  "accessType": "public"
+}

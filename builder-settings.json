@@ -1,0 +1,26 @@
+{
+  "proxyServer": "",
+  "thingServer": "https://015aoxog.pp.vuforia.io",
+  "thingServerHistory": ["http://creo-ar.ptc.com", "https://015aoxog.pp.vuforia.io", "https://hi2qfrar.pp.vuforia.io"],
+  "recentProjects": ["Apaqi", "StudioSampleQuadcopter", "ACB", "MoveCar", "CAR-1", "StudioSample3DImport"],
+  "importedSampleProjects": ["StudioSampleQuadcopter", "StudioSample3DImport"],
+  "acceptedLicense": true,
+  "autoConfigureDismissed": true,
+  "dev_portal_url": "https://studio.thingworx.com/api/v1",
+  "proxyUser": "pt-xy@pt-china.com.cn",
+  "enableDebugLogging": true,
+  "thingmarkDomain": 11519,
+  "thingmarks": {
+    "svg": {
+      "11519:2": "/thingmarks/11519-2.svg",
+      "11519:1": "/thingmarks/11519-1.svg",
+      "11519:3": "/thingmarks/11519-3.svg"
+    },
+    "png": {
+      "11519:3": "/thingmarks/11519-3.png",
+      "11519:1": "/thingmarks/11519-1.png",
+      "11519:2": "/thingmarks/11519-2.png"
+    }
+  },
+  "proxyPassword": "c0128ced6a9b82a365ae8bc2a3ce0506"
+}
