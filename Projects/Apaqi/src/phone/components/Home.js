@@ -55,6 +55,8 @@ $scope.startCopter = function() {
       // spin the propeller
       $scope.app.params.ry += angleIncrement % 360;
       $scope.app.params.rx += angleIncrement % 360;
+      //Rot
+     // $scope.app.params.Rot += angleIncrement % 360;
       
       // tilt at a 5 degree angle if moving
       $scope.app.params.tiltX = 2500 * zdelta;
@@ -81,6 +83,11 @@ $scope.stopCopter = function() {
   $scope.view.wdg['backButton']['pressed'] = false;
   $scope.view.wdg['upButton']['pressed'] = false;
   $scope.view.wdg['downButton']['pressed'] = false;
+  $scope.view.wdg['StopBoomButton']['pressed'] = false;
+  $scope.view.wdg['LeftRotButton']['pressed'] = false;
+  $scope.view.wdg['RightRotButton']['pressed'] = false;
+  //$scope.view.wdg['downButton']['pressed'] = false;
+  //$scope.view.wdg['downButton']['pressed'] = false;
 
   // reset values;
   xdelta = 0;
@@ -113,3 +120,7 @@ $scope.stopZ	= function() { zdelta = 0; }
 
 $scope.goBoom	= function() {Bdelta = 0.05; }
 $scope.stopBoom	= function() {Bdelta = 0; $scope.app.params.Bxpos = -0.013;}
+
+
+//$scope.goLeftRot	= function() {Bdelta = 0.05; }
+//$scope.goRightRot	= function() {Bdelta = 0.05; }

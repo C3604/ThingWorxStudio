@@ -96,6 +96,18 @@
               "to-property": "ry"
             },
             "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1495857536545",
+              "source-type": "data",
+              "source-name": "Rot",
+              "source-item-type": "value",
+              "source-item-name": "Rot",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['Rot']",
+              "to-property": "rz"
+            },
+            "name": "twx-databind"
           }]
         }, {
           "attributes": {
@@ -673,6 +685,18 @@
                                   },
                                   "name": "twx-col",
                                   "children": [{
+                                    "name": "twx-container-content"
+                                  }]
+                                }, {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "column-2",
+                                    "padding": "auto",
+                                    "widget-name": "column-2",
+                                    "is-widget-container": "true"
+                                  },
+                                  "name": "twx-col",
+                                  "children": [{
                                     "name": "twx-container-content",
                                     "children": [{
                                       "attributes": {
@@ -688,18 +712,6 @@
                                       },
                                       "name": "twx-toggle-button"
                                     }]
-                                  }]
-                                }, {
-                                  "attributes": {
-                                    "twx-widget": "",
-                                    "widget-id": "column-2",
-                                    "padding": "auto",
-                                    "widget-name": "column-2",
-                                    "is-widget-container": "true"
-                                  },
-                                  "name": "twx-col",
-                                  "children": [{
-                                    "name": "twx-container-content"
                                   }]
                                 }, {
                                   "attributes": {
@@ -735,7 +747,21 @@
                                   },
                                   "name": "twx-col",
                                   "children": [{
-                                    "name": "twx-container-content"
+                                    "name": "twx-container-content",
+                                    "children": [{
+                                      "attributes": {
+                                        "twx-widget": "",
+                                        "widget-id": "LeftRot",
+                                        "src": "Default/vu_seq_pause.svg",
+                                        "srcnotpressed": "Default/vu_seq_previous.svg",
+                                        "background-color": "transparent",
+                                        "background-color-pressed": "transparent",
+                                        "widget-name": "Left Rot",
+                                        "pressed-expression": "view.wdg['RightRot']['pressed']=false;\ngoLeftRot();",
+                                        "unpressed-expression": "StopRot();"
+                                      },
+                                      "name": "twx-toggle-button"
+                                    }]
                                   }]
                                 }, {
                                   "attributes": {
@@ -773,7 +799,21 @@
                                   },
                                   "name": "twx-col",
                                   "children": [{
-                                    "name": "twx-container-content"
+                                    "name": "twx-container-content",
+                                    "children": [{
+                                      "attributes": {
+                                        "twx-widget": "",
+                                        "widget-id": "RightRot",
+                                        "src": "Default/vu_seq_pause.svg",
+                                        "srcnotpressed": "Default/vu_seq_next.svg",
+                                        "background-color": "transparent",
+                                        "background-color-pressed": "transparent",
+                                        "widget-name": "Right Rot",
+                                        "pressed-expression": "view.wdg['LeftRot']['pressed']=false;\ngoRightRot();",
+                                        "unpressed-expression": "StopRot();"
+                                      },
+                                      "name": "twx-toggle-button"
+                                    }]
                                   }]
                                 }]
                               }]
@@ -797,6 +837,18 @@
                                   },
                                   "name": "twx-col",
                                   "children": [{
+                                    "name": "twx-container-content"
+                                  }]
+                                }, {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "column-8",
+                                    "padding": "auto",
+                                    "widget-name": "column-8",
+                                    "is-widget-container": "true"
+                                  },
+                                  "name": "twx-col",
+                                  "children": [{
                                     "name": "twx-container-content",
                                     "children": [{
                                       "attributes": {
@@ -812,18 +864,6 @@
                                       },
                                       "name": "twx-toggle-button"
                                     }]
-                                  }]
-                                }, {
-                                  "attributes": {
-                                    "twx-widget": "",
-                                    "widget-id": "column-8",
-                                    "padding": "auto",
-                                    "widget-name": "column-8",
-                                    "is-widget-container": "true"
-                                  },
-                                  "name": "twx-col",
-                                  "children": [{
-                                    "name": "twx-container-content"
                                   }]
                                 }, {
                                   "attributes": {
